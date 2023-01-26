@@ -325,7 +325,7 @@ while block_nr < 3:                                                             
                     if prop_card4[previous_rule_n] == current_card[previous_rule_n]:  #checks whether the error has been a perseverative one
                         pers_errors += 1                                              #if so, the count for perseverative errors is increased by one
         
-        rt_r = round(rt, 4)
+        rt_r = round(rt, 3)
         test_screen.flip()
         wait(0.5)
             
