@@ -349,3 +349,7 @@ percent_pers = round((pers_errors/count_inc *100), 2)                           
 data.write("\t".join(["\n(amount / percentage) \nCorrect answers:", str(count_cor), str(percent_cor), "\nIncorrect answers:", str(count_inc), str(percent_inc), "\nPerseverative errors:", str(pers_errors), str(percent_pers), "\n\n  ### \n\n"]))
 
 data.close()
+
+
+# GL:
+# all seems very nice and fine and elaborate; nothing really to correct
